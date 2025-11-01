@@ -20,7 +20,7 @@ npm-debug.log*
 
 # Testing
 /coverage
-
+/assets/components
 # Production
 /build
 /dist
