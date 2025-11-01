@@ -1,0 +1,24 @@
+.btn {
+  display: inline-block;
+  font-size: var(--fs-pr2);
+  line-height: var(--lh-pr2-);
+  font-family: "Lexend Deca", serif;
+  background-color: var(--color-white);
+  padding: 1.1rem var(--space-400);
+  border-radius: 2.5rem;
+  text-wrap: nowrap;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid var(--color-white);
+  transition: all 0.2s ease-in-out;
+}
+
+.btn--primery {
+  color: var(--color-gold-500);
+}
+
+.btn--primery:hover {
+  background-color: transparent;
+  color: var(--color-white);
+  border: 1px solid var(--color-white);
+}

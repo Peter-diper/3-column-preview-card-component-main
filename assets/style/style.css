@@ -1,0 +1,33 @@
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray-100: #f2f2f2;
+  --color-green-500: #19b89d;
+  --color-green-950: #004140;
+  --color-Cyan-800: #006971;
+  --color-Cyan-500: #26b5c0;
+  --color-gold-500: #e28625;
+  --color-gold-200: #ffd473;
+
+  --space-100: 0.8rem;
+  --space-300: 2.4rem;
+  --space-400: 3.2rem;
+  --space-500: 4rem;
+  --space-600: 4.8rem;
+  --space-1000: 8rem;
+
+  --fs-pr1: 4rem;
+  --lh-pr1-: 1.25;
+
+  --fs-pr2: 1.5rem;
+  --lh-pr2-: 1.65;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #65a8a89d;
+}
