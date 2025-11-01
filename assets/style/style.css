@@ -17,10 +17,14 @@
   --space-1000: 8rem;
 
   --fs-pr1: 4rem;
-  --lh-pr1-: 1.25;
+  --lh-pr1: 1.25;
 
   --fs-pr2: 1.5rem;
-  --lh-pr2-: 1.65;
+  --lh-pr2: 1.65;
+}
+
+* {
+  transition: all 200ms ease-in-out;
 }
 
 html {
@@ -28,6 +32,8 @@ html {
 }
 
 body {
+  background-color: var(--color-gray-100);
   min-height: 100vh;
-  background-color: #65a8a89d;
+  display: grid;
+  place-content: center;
 }

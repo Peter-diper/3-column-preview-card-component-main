@@ -9,7 +9,7 @@
   text-wrap: nowrap;
   text-decoration: none;
   cursor: pointer;
-  border: 1px solid var(--color-white);
+  border: 2px solid var(--color-white);
   transition: all 0.2s ease-in-out;
 }
 
@@ -19,6 +19,6 @@
 
 .btn--primery:hover {
   background-color: transparent;
-  color: var(--color-white);
-  border: 1px solid var(--color-white);
+  color: var(--color-white) !important;
+  border: 2px solid var(--color-white) !important;
 }
